@@ -1,0 +1,102 @@
+@import '../../public/fonts/IconFonts/style.css';
+
+@font-face {
+  font-family: "SF UI Text Regular";
+  src: local("SF UI Text Regular"),
+    url("../../public/fonts/SFUIText/SFUIText-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "SF UI Text Medium";
+  src: local("SF UI Text Medium"),
+    url("../../public/fonts/SFUIText/SFUIText-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF Pro Display Semibold";
+  src: local("SF Pro Display Semibold"),
+    url("../../public/fonts/SFProDisplay/SF-Pro-Display-Semibold.otf") format("opentype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "SF Pro Display Medium";
+  src: local("SF Pro Display Medium"),
+    url("../../public/fonts/SFProDisplay/SF-Pro-Display-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: local("SF Pro Display Regular"),
+    url("../../public/fonts/SFProDisplay/SF-Pro-Display-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+
+
+.pro-text-xs-1, .pro-text-xs-2, .pro-text-xs-3 {
+	font-size: 12px;
+}
+.pro-text-xs-1 {
+	font-family: 'SF Pro Display Regular', sans-serif;
+	font-weight: 400;
+}
+.pro-text-xs-2 {
+	font-family: 'SF Pro Display Medium', sans-serif;
+	font-weight: 500;
+}
+.pro-text-xs-3 {
+	font-family: 'SF Pro Display Semibold', sans-serif;
+	font-weight: 600;
+}
+
+.pro-text-s-1, .pro-text-s-2, .pro-text-s-3 {
+	font-size: 14px;
+}
+.pro-text-s-1 {
+	font-family: 'SF Pro Display Regular', sans-serif;
+	font-weight: 400;
+}
+.pro-text-s-2 {
+	font-family: 'SF Pro Display Medium', sans-serif;
+	font-weight: 500;
+}
+.pro-text-s-3 {
+	font-family: 'SF Pro Display Semibold', sans-serif;
+	font-weight: 600;
+}
+
+.pro-heading-m-1 {
+	font-family: 'SF Pro Display Semibold', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+}
+
+
+
+.ui-text-xs-1, .ui-text-xs-2 {
+	font-size: 12px;
+}
+.ui-text-xs-1 {
+	font-weight: 400;
+	font-family: 'SF UI Text Regular', sans-serif;
+}
+.ui-text-xs-2 {
+	font-weight: 500;
+	font-family: 'SF UI Text Medium', sans-serif;
+}
+
+.ui-text-m-1, .ui-text-m-2 {
+	font-size: 16px;
+}
+.ui-text-m-1 {
+	font-weight: 400;
+	font-family: 'SF UI Text Regular', sans-serif;
+}
+.ui-text-m-2 {
+	font-weight: 500;
+	font-family: 'SF UI Text Medium', sans-serif;
+}

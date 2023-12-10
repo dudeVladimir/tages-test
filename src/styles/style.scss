@@ -1,0 +1,49 @@
+@import 'colors';
+@import 'fonts';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html, body, #app {
+	overflow: hidden;
+	height: 100%;
+	line-height: 140%;
+}
+
+body {
+	font-family: 'SF UI Text Regular', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+	background: var(--white-color);
+	color: var(--black-color);
+	line-height: 16px;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+	display: block;
+	cursor: pointer;
+}
+
+.default-layout-content {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1448px;
+}
+
+.text-ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+
+@import 'helper';
